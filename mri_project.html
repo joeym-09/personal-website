@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Generating MRI Images</title>
+	<meta name="description" content="Skin Cancer Detection" />
+	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+	<meta name="author" content="beingeorge" />
+	<meta name="theme-color" content="#2a2d35">
+
+	<!-- Vendor Css-->
+	<link rel="stylesheet" href="assets/css/vendor.css" />
+
+	<!-- DiyaTemplate style Css -->
+	<link href="assets/css/diya.css" rel="stylesheet">
+
+	<!-- Custom style Css -->
+	<link href="assets/css/custom.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+	<!-- START: Preloader -->
+	<div id="preloader" class="preloader">
+		<div class="spinner-grow text-dark" role="status">
+			<span class="sr-only">Loading...</span>
+		</div>
+	</div>
+	<!-- END: Preloader -->
+
+    <div class="page-wrapper">
+
+		<nav class="navbar navbar-expand-lg navbar-custom navbar-light fixed-top">
+			<div class="container">
+
+				<a class="navbar-brand  mr-auto " href="index.html">Joey
+					<!-- <img src="assets/images/logo.png" alt="Logo"> -->
+				</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarToggler">
+					<ul class="navbar-nav ml-auto">
+						<li><a class="nav-link active" href="#home">home</a></li>
+						<li><a class="nav-link active" href="#problem">problem</a></li>
+
+						<li><a class="nav-link" href="#solution">solution</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- START: HOME -->
+    	<section class="section-home1 " id="home">
+    		<div class="overlay d-flex justify-content-center align-items-center">
+    			<div class="overlay-wrap container text-left">
+
+	 	   			<h1 class="mb-5">Generating MRI Images of Multi-Contrast<span></span></h1>
+						<span class="Leveraging Convolutional Neural Network mb-3"></span>
+	 	   			<a href="https://towardsdatascience.com/generating-mri-images-of-multiple-contrast-levels-89c3b6c00e68" class="btn " target = "_blank" >Check out my article!</a>
+ 	   			</div>
+ 	   		</div>
+    	</section>
+    	<!-- END: HOME -->
+
+		<!-- START: ABOUT -->
+		<section class="section section-about" id="problem">
+			<div class="container">
+				<div class="row justify-content-center align-items-center">
+
+
+					<div class="col-md-7">
+						<div class="about-desc">
+							<div class="about-desc-content text-left">
+								<h2>Problem: Medical Misdiagnosis</h2>
+								<p>40 million people are misdaignosed by radiologist every single year. This is based on a 4% diagnosis error. By simply improvidng disease diagnosis, we can save many lives and solve half of the healthcare problem! Diseases like cancer in particular have significantly higher 5-year survival rates when diagnosed in early stages in comparison to later-stages, but rarely do any “signs” of disease goes detected during early stages, and this is a problem.</p>
+							</div>
+
+
+						</div>
+					</div>
+
+					<div class="col-md-5">
+						<img class="img-fluid img-thumbnail mx-auto d-block wow fadeInUp" src="assets/images/mrip.jpg" alt="Problem Picture">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: ABOUT -->
+
+		<!-- START: ABOUT -->
+		<section class="section section-about" id="solution">
+			<div class="container">
+				<div class="row justify-content-center align-items-center">
+
+
+					<div class="col-md-7">
+						<div class="about-desc">
+							<div class="about-desc-content text-left">
+								<h2>Solution: Leveraging CycleGANs to generate MRI Images of Multiple Contrast Levels</h2>
+								<p>CycleGAN is a novel generative model that can be used for style trasnfer, a machine learning technique. Specifically, I used CycleGAN to translate T1-weighted MRI images to T2-weighted MRI images and vice versa. This tool can potentially help radiologist better diagnose diseases even if they don't have different types of diagnostic images.</p>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-md-5">
+						<img class="img-fluid img-thumbnail mx-auto d-block wow fadeInUp" src="assets/images/mris.jpg" alt="Solution Picture">
+					</div>
+
+				</div>
+			</div>
+
+			<div class="contact-Otherdetails">
+				<div class="container">
+
+					<div class="contact-form mt-5">
+
+							<div class="row">
+								<div class="col-lg-12 text-center mt-4 mb-5  wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
+									<a href="https://github.com/joeym-09/Skin-Cancer-Detection" class="btn hover-state" target = "_blank" >Check out the source code!</a>
+								</div>
+							</div>
+
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!-- END: ABOUT -->
+
+
+		<!--START: FOOTER-->
+		<footer class="footer section section-light">
+			<div class="container">
+				<p class="copyright text-center mb-0">&copy; Joey 2019 | All Right Reserved</p>
+			</div>
+		</footer>
+		<!--END: FOOTER-->
+	</div>
+
+
+	<!-- JAVASCRIPTS -->
+
+	<script src="assets/js/vendor.js"></script>
+
+	<!-- Map -->
+	<script src="assets/js/map.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD79MY72taVRlZVX2DU6L5PXOh3ezUUKMc&amp;callback=initMap" async="" defer=""></script>
+
+	<!-- Custom Js -->
+	<script src="assets/js/custom.js"></script>
+</body>
+</html>
